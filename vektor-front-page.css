@@ -11,7 +11,7 @@
 	left: 0;
 	z-index: 9999;
 	background-color: #191919;
-	opacity: 0.83;
+	opacity: 0.82;
 	background-image: -webkit-linear-gradient(top, #444, #000);
 	background-image: -moz-linear-gradient(top,#444,#000);
 	background-image: -ms-linear-gradient(top,#444,#000);
@@ -43,7 +43,7 @@ body {
 #right_header { 
 	float: right;
 	font-weight: 600;
-	width: 500px;
+	width: 400px;
 	position: relative;
 	margin-right: -10px; 
 	color: White; 
