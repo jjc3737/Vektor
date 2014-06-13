@@ -70,8 +70,27 @@ body {
 	margin-right: -10px; 
 	color: White; 
 	margin-top: 20px;
-	}
+}
 
+#right_header a:link { 
+	text-decoration: none;
+	color: #fff;
+}
+
+#right_header a:visited { 
+	text-decoration: none;
+	color: #fff;
+}
+
+#right_header a:active { 
+	text-shadow: 0 0 10px #F5AD4E;
+	color: #F5AD4E;
+}
+
+#right_header a:hover { 
+	text-shadow: 0 0 10px #F5AD4E;
+	color: #F5AD4E;
+}
 
 .nav-item { 
 	font-family: Syncopate;
