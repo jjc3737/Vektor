@@ -114,13 +114,32 @@ body {
 	display: inline-block;
 	margin-top: -10px;
 	margin-left: 15px;
-	}
+}
 
-	#right_header li p{ 
+#right_header li p{ 
 		display: inline;
 		font-family: Syncopate;
 		margin-left: 5px;
 		font-weight: 100;
 		font-size: 14px;
-	}
+}
 
+#drones { 
+	height: 600px;
+	width: 100%;
+}
+
+#services { 
+	height: 400px;
+	width: 100%;
+}
+
+#drones h2 { 
+		font-family: Syncopate;
+		text-align: center;
+}
+
+#about h2 { 
+		font-family: Syncopate; 
+		text-align: center; 
+}
