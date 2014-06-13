@@ -3,4 +3,5 @@ $( document ).ready(function() {
 	if(iOS){
 		$("#landingVideo").attr( "controls", true );
 	}
+	$('body').scrollspy({ target: '.right_header_position'})
 });
