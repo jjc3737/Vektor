@@ -16,7 +16,20 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+    $( document ).ready(function() {
+        var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
+		if(iOS){
+			$("#landingVideo").attr( "controls" );
+		}
+    });
+ 
 
+    </script>
   </head>
   <body>
 	<nav class="headerBox" id="nav_desktop">
@@ -36,7 +49,7 @@
 	</nav>
 	<div id="home">
     	<h1 id='mainTitle'>#getFree</h1>
-  		<video height="100%" width="100%" controls preload>
+  		<video id="landingVideo" height="100%" width="100%" autoplay loop preload>
 			<source src="getfree.m4v" />
 			<source src="getfree.mp4" />
   	  	  Your browser does not support the <code>video</code> element.
@@ -46,10 +59,7 @@
 	<div id="drones"></div>
 	<div id="about"></div>
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
+
 
    </body>
 </html>
