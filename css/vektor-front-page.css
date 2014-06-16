@@ -158,24 +158,24 @@ body {
 
 .services_header { 
 	font-family: Syncopate; 
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	display: inline;
 	text-align: center;
 	margin-left: 70px;
-	width: 1024px;
+	width: 100%;
 }
 
 #titles { 
 	display: inline-block;
-	margin-left: 300px;
+	margin-left: 250px;
 	margin-top: 20px;
 	margin-right: 50px;
 }
 
 #videos { 
 	display: inline-block;
-	margin-left: 300px;
+	margin-left: 270px;
 	margin-right: 50px;
 	margin-bottom: 35px;
 }
