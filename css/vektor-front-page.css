@@ -157,13 +157,24 @@ body {
 }
 
 
-#uses h2{ 
+#uses h1 { 
 		font-family: Syncopate;
 		text-align: center;
-		position: absolute; 
+		position: relative; 
 		width: 100%; 
-		top: 300px; 
+		top: 180px; 
 		color: #fff;
+		font-size: 40px;
+}
+
+#uses p { 
+	font-family: Syncopate; 
+	text-align: center; 
+	position:relative; 
+	width: 100%; 
+	top: 190px;
+	color: #fff;
+	font-size: 20px;
 }
 		
 
