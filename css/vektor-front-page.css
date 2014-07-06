@@ -8,13 +8,26 @@
 	position: absolute;
 	width: 100%;
 	text-align:center;
-	top:300px;
+	top:275px;
 	left:0px;
 	color: #fff;
 	font-size: 60px;
 	font-family: Syncopate;
 	
 }
+
+#mainTitle2 { 
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 375px;
+	left:0px;
+	color: #fff;
+	font-family: Syncopate;
+	font-size: 30px;
+}
+
+
 #subTitle {
 	position: absolute;
 	width: 100%;
@@ -32,13 +45,9 @@
 	top: 0;
 	left: 0;
 	z-index: 9999;
-	background-color: #191919;
-	opacity: 0.79;
-	background-image: -webkit-linear-gradient(top, #444, #000);
-	background-image: -moz-linear-gradient(top,#444,#000);
-	background-image: -ms-linear-gradient(top,#444,#000);
-	background-image: -o-linear-gradient(top,#444,#000);
-	background-image: linear-gradient(top,#444,#000);
+	background-color: #fff;
+	border-bottom: 1px solid #BAB6B6;
+	opacity: 0.89;
 	
 }
 
@@ -47,7 +56,7 @@
 	position: relative;
 	margin-left: 100px; 
 	font-family: Syncopate; 
-	color: White; 
+	color: #000000; 
 }
 
 .home_page { 
@@ -55,30 +64,30 @@
 	float: left;
 	width: auto;
 	font-family: Syncopate;
-	color: #fff;
+	color: #000000;
 	font-size: 30px;
 	margin-left: 40px;
 	margin-top: 15px;
 }
 
 .home_page a:link { 
-	text-shadow: 0 0 10px #F5AD4E;
-	color: #F5AD4E;
+	text-shadow: 0 0 1px #3A3B39;
+	color: #3A3B39;
 }
 
 .home_page a:visited { 
 	text-decoration: none;
-	color: #F5AD4E;
+	color: #3A3B39;
 }
 
 .home_page a:hover { 
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 .home_page a:active {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 body { 
@@ -93,18 +102,18 @@ body {
 	width: 400px;
 	position: relative;
 	margin-right: -10px; 
-	color: White; 
+	color: #000; 
 	margin-top: 25px;
 }
 
 #right_header a:link { 
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 #right_header a:visited { 
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 #right_header a:active { 
@@ -119,7 +128,7 @@ body {
 
 .nav-item { 
 	font-family: Syncopate;
-	color: #fff;
+	color: #000;
 	list-style: none;
 	padding: 0.5em 0.375em;
 	font-weight: 600;
