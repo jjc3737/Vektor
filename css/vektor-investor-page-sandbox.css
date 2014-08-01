@@ -1,0 +1,47 @@
+@import url('http://fonts.googleapis.com/css?family=Syncopate');
+
+#socialMedia { 
+	position: absolute;
+	float: left;
+	display: block;
+	top: 10px;
+}
+
+
+#mainTitle {
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top:275px;
+	left:0px;
+	color: #fff;
+	font-size: 60px;
+	font-family: Syncopate;
+}
+
+#mainTitle2 { 
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 375px;
+	left:0px;
+	color: #fff;
+	font-family: Syncopate;
+	font-size: 30px;
+}
+
+#upperLandingVideo {
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 10;
+    opacity: 0.7;
+}
+
+#lowerLandingVideo {
+    top:0px;
+    left:0px;
+
+    position: absolute;
+    z-index: 1;
+}

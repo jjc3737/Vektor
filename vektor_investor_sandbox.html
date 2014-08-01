@@ -8,7 +8,7 @@
     <title>Vektor Drone Investors</title>
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
-  	<link href="css/vektor-investor-page.css" rel="stylesheet">
+  	<link href="css/vektor-investor-page-sandbox.css" rel="stylesheet">
 
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,12 +35,18 @@
     </head>
 	<body>
 		<div id="home">
-  			<video id="landingVideo" height="100%" width="100%" autoplay loop preload>
+  			<video id="upperLandingVideo" height="100%" width="100%" autoplay loop preload>
 				<source src="main-v3-r.m4v" />
 				<source src="main-v3-r.mp4" />
 				<source src="main-v3-r.webm" type="video/webm; codecs=vp8,vorbis" />
   	  	  Your browser does not support the <code>video</code> element.
-  			</video>
+  			</video></div>
+            <video id="lowerLandingVideo" height="100%" width="100%" autoplay loop preload>
+                <source src="getfree.m4v" />
+                <source src="getfree.m4v.mp4" />
+                <source src="getfree.m4v.webm" type="video/webm; codecs=vp8,vorbis" />
+                Your browser does not support the <code>video</code> element.
+            </video>
     		<h1 id='mainTitle'>Vektor</h1>
 			<p id='mainTitle2'>Personal Flying Cameras</p>
 		</div>
@@ -48,7 +54,7 @@
         <iframe name="hidden_iframe" id="hidden_iframe"
             style="display:none;" onload="if(submitted)
             {window.location='confirmationPage.html';}"></iframe>
-        <form action="https://docs.google.com/forms/d/1bOFFgAVLrrjgADAE3cFIbTXFqhsiDx95HWSOxS7huuc/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;"><ol role="list" class="ss-question-list" style="padding-left: 0">>
+        <form action="https://docs.google.com/forms/d/1bOFFgAVLrrjgADAE3cFIbTXFqhsiDx95HWSOxS7huuc/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;"><ol role="list" class="ss-question-list" style="padding-left: 0">
                 <h5>enter email buddy</h5>
                     <input type="text" name="entry.501488238" value="" class="ss-q-short" id="entry_501488238" dir="auto" aria-label="Please enter your email" title="">
                    <input type="submit" name="submit" value="Submit" id="ss-submit">
