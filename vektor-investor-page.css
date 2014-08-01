@@ -1,5 +1,16 @@
 @import url('http://fonts.googleapis.com/css?family=Syncopate');
 
+#socialMedia { 
+	position: absolute;
+	display: block;
+}
+
+#socialMedia img { 
+	height: 5px;
+	width: 5px;
+}
+
+
 #mainTitle {
 	position: absolute;
 	width: 100%;
