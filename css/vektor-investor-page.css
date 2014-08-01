@@ -2,12 +2,9 @@
 
 #socialMedia { 
 	position: absolute;
+	float: left;
 	display: block;
-}
-
-#socialMedia img { 
-	height: 5px;
-	width: 5px;
+	top: 10px;
 }
 
 
