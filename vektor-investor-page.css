@@ -1,0 +1,23 @@
+@import url('http://fonts.googleapis.com/css?family=Syncopate');
+
+#mainTitle {
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top:275px;
+	left:0px;
+	color: #fff;
+	font-size: 60px;
+	font-family: Syncopate;
+}
+
+#mainTitle2 { 
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 375px;
+	left:0px;
+	color: #fff;
+	font-family: Syncopate;
+	font-size: 30px;
+}
