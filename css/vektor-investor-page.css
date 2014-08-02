@@ -2,8 +2,9 @@
 
 #landingVideo { 
 	top: 0px;
-	left: -5px;
-	right: -5px;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 #socialMedia { 
@@ -19,6 +20,10 @@
 	top: 2px;
 	margin-right: 10px;
 
+}
+
+#socialMediaLogo img { 
+	opacity: 0.5;
 }
 
 #mainTitle {
