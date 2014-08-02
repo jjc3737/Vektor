@@ -80,19 +80,27 @@
 	margin-top: 410px;
 }
 
-#ss-submit { 
+#ss-submit {
+    opacity: .5;
 	height: 33px;
 	font: bold 13px Syncopate;
 	border: none;
-	background: black;
+    background: #FF8300;
 	color: white;
 	display: inline-block;
 	padding: 11px 10px;
 }
 
-#entry_501488238 { 
+#entry_501488238 {
+    opacity: .5;
 	height: 30px;
 	width: 200px;
+}
+
+#investor-message {
+    padding-top: 10px;
+    margin: 0 auto;
+ 
 }
 
 h5 { 
