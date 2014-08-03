@@ -23,7 +23,7 @@
 }
 
 #socialMediaLogo img { 
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 #mainTitle {
@@ -81,7 +81,7 @@
 }
 
 #ss-submit {
-    opacity: .5;
+    opacity: .85;
 	height: 33px;
 	font: bold 13px Syncopate;
 	border: none;
@@ -92,7 +92,7 @@
 }
 
 #entry_501488238 {
-    opacity: .5;
+    opacity: .85;
 	height: 30px;
 	width: 200px;
 }
