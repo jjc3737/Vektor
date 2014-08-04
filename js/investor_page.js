@@ -4,20 +4,20 @@ $( document ).ready(function() {
 		$("#landingVideo").attr( "controls", true );
 	}
 	$('body').scrollspy({ target: '.right_header_position'})
-	//var myVideo = _V_("landingVideo");
-	//function onComplete() { 
-	//	var landingVideo = document.getElementsByTagName('video')[0];
-	//	var videoPlaying = landingVideo.currentSRC; 
-	//	var ext = videoPlaying.substr(videoPlaying.lastIndexof(".")); 
-	//	landingVideo.src = 'video/eu'+ext
-	//	landingVideo.load();
-	//	landingVideo.play();
-	//	landingVideo.removeEvent("ended", onComplete);
+	var myVideo = _V_("landingVideo");
+	function onComplete() { 
+		var landingVideo = document.getElementsByTagName('video')[0];
+		var videoPlaying = landingVideo.currentSRC; 
+		var ext = videoPlaying.substr(videoPlaying.lastIndexof(".")); 
+		landingVideo.src = 'main-v3-r.'+ext
+		landingVideo.load();
+		landingVideo.play();
+		landingVideo.removeEvent("ended", onComplete);
 	
-	//};
-	//myVideo.addEvent("ended", onComplete);
+};
+	myVideo.addEvent("ended", onComplete);
 	
-	var videoSource = new Array(); 
+	/* var videoSource = new Array(); 
 	videoSource[0] = document.getElementsById("landingVideo").currentSRC;
 	videoSource[1] = document.getElemtnsById("landingVideo2").currentSRC; 
 	videoSource[2] = document.getElemtnsById("landingVideo3").currentSRC;
@@ -42,5 +42,5 @@ $( document ).ready(function() {
 	       }
 	
 	
-});
+});*/
 

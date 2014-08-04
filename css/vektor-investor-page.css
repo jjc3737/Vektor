@@ -22,30 +22,41 @@
 
 }
 
+#socialMediaLogo2 { 
+	display: inline-block;
+	top: 2px;
+	margin-right: 10px;
+}
+
+#socialMediaLogo2 img { 
+	opacity: .7; 
+	border-radius: 5px;
+}
+
 #socialMediaLogo img { 
-	opacity: 0.7;
+	opacity: .51;
 }
 
 #mainTitle {
 	position: absolute;
 	width: 100%;
-	text-align:center;
-	top:225px;
 	left:0px;
 	color: #fff;
 	font-size: 60px;
 	font-family: Syncopate;
+	text-align: center;
+	top: 225px;
 }
 
 #mainTitle2 { 
 	position: absolute;
-	text-align: center;
 	width: 100%;
+	left:10px;
 	top: 325px;
-	left:0px;
 	color: #fff;
 	font-family: Syncopate;
-	font-size: 30px;
+	font-size: 25px;
+	text-align: center;
 }
 
 #backToHome { 
@@ -75,13 +86,23 @@
 	z-index: 10;
 }
 
+#form-box { 
+	height: 115px;
+	width: 350px;
+	position: absolute;
+	top: 370px;
+	background-color: black;
+	opacity: 0.7;
+	margin-left: 500px;
+}
+
 #ss-form { 
 	text-align: center;
-	margin-top: 410px;
+	margin-top: 25px;
 }
 
 #ss-submit {
-    opacity: .85;
+    opacity: .9;
 	height: 33px;
 	font: bold 13px Syncopate;
 	border: none;
@@ -92,7 +113,7 @@
 }
 
 #entry_501488238 {
-    opacity: .85;
+    opacity: .9;
 	height: 30px;
 	width: 200px;
 }
