@@ -9,7 +9,7 @@ $( document ).ready(function() {
 		var landingVideo = document.getElementsByTagName('video')[0];
 		var videoPlaying = landingVideo.currentSRC; 
 		var ext = videoPlaying.substr(videoPlaying.lastIndexof(".")); 
-		landingVideo.src = 'main-v3-r.'+ext
+		landingVideo.src = 'main-v3-r.'+ ext;
 		landingVideo.load();
 		landingVideo.play();
 		landingVideo.removeEvent("ended", onComplete);
