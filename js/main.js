@@ -5,9 +5,10 @@ $( document ).ready(function() {
 		$('#home').prepend('<img id="mobileLanding" src="getfree.jpeg" />')
 		$('#home').prepend('<img id="mobileLanding" src="yerba.jpeg" />')
 		$('#home').prepend('<img id="mobileLanding2" src="dolores.jpeg" />')
+		$('#mainTitle').css('color', '#525151');
 		
 	}
-	$('body').scrollspy({ target: '.right_header_position'})
+	$('body').scrollspy({ target: '.right_header_position'});
 	
 	
 });
