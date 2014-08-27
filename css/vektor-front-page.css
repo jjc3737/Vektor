@@ -43,6 +43,17 @@
 	
 }
 
+#thanks { 
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top:275px;
+	left:0px;
+	color: #fff;
+	font-size: 40px;
+	font-family: Syncopate;
+}
+
 #backToHome { 
 	position: fixed;
 	top: 10px;
